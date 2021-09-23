@@ -73,7 +73,7 @@ public class StartProgram {
 				} else if (update == 2) {
 					System.out.print("New Breed: ");
 					String newBreed = in.nextLine();
-					toEdit.setItem(newBreed);
+					toEdit.setBreed(newBreed);
 				}
 
 				lph.updateItem(toEdit);
