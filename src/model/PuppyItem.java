@@ -49,7 +49,7 @@ public class PuppyItem {
 		return breed;
 	}
 
-	public void setItem(String breed) {
+	public void setBreed(String breed) {
 		this.breed = breed;
 	}
 
